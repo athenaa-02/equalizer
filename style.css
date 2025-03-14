@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+:root{
+    --red:#FA7453;
+    --blue-background:#191826;
+    --text_black:#191826;
+    --button_white:#FCFAF9;
+    --button_cyan:#66E2DC;
+    --button_orange:#FFB964;
+}
+
+body{
+   margin: 0;
+   padding: 0;
+}
+*{
+    font-family: "IBM Plex Sans", sans-serif;
+    box-sizing: border-box;
+}
+main, section{
+    width: 100%;
+}
+section.text_headers{
+    position: relative;
+    padding: 20px 90px;
+}
+section.text_headers img{
+    position: absolute;
+}
+img.corner_blur{
+    left: 0;
+    top: 0;
+}
+img.figures{
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+img.blue_blur{
+    width: 650px;
+    top: 0;
+    right: 0;
+}
+img.orange_blur{
+    width: 584px;
+    top: 250px;
+    right: 0;
+}
+p.header_text{
+    margin: 0;
+    font-size: 23px;
+    font-weight: 600;
+}
+h1{
+    font-weight: 700;
+    font-size: 88px;
+    line-height: 88px;
+    letter-spacing: -1px;
+    width: 850px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+article{
+    height: 102px;
+    width: 825px;
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 400;
+}
+/* section second */
+section.tele_box{
+    margin-top: 320px;
+    display: flex;
+    justify-content: center;
+}
+div.blue_background{
+    width: 1110px;
+    height: 600px;
+    background-color: var(--blue-background);
+    border-radius: 12px;
+}
