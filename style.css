@@ -77,6 +77,83 @@ section.tele_box{
 div.blue_background{
     width: 1110px;
     height: 600px;
+    position: relative;
     background-color: var(--blue-background);
     border-radius: 12px;
+}
+div.blue_background img, div.blue_background div.red{
+position: absolute;
+}
+
+.phone_scr{
+    bottom: 170px;
+    left: 102px;
+    height: 642px;
+    z-index: 3;
+}
+img.four_figures{
+    left: 366px;
+    bottom: 172px;
+    z-index: 2;
+}
+div.red{
+    width: 446px;
+    height: 625px;
+    padding: 55px 59px 48px 54px;
+    background-color: var(--red);
+    border-radius: 12px;
+    color: var(--button_white);
+    top: 90px;
+    right: 95px;
+    z-index: 3;
+}
+h2{  
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0 0 22px;
+}
+article.onRed{
+    width: 320px;
+    height: 170px;
+    font-weight: 300;
+    line-height: 34px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+div.price_month{
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+}
+p.price{
+    font-weight: 700;
+    font-size: 65px;
+    margin: 0;
+    padding-right: 13px;
+}
+div.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+div.buttons button{
+    height: 55px;
+    border-radius: 12px;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+button.ios{
+    background-color: var(--blue-background);
+    color: var(--button_white);
+}
+button.android{
+    color: var(--blue-background);
+    background-color: var(--button_white);
+}
+button img{
+    position: static;
+}
+button span{
+    margin-left: 22px;
 }
