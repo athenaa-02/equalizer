@@ -143,17 +143,64 @@ div.buttons button{
     font-weight: 700;
     font-size: 18px;
 }
+/* ios button */
 button.ios{
     background-color: var(--blue-background);
     color: var(--button_white);
 }
+button.ios:hover{
+    background-color: var(--button_cyan);
+}
+
+/* android button */
 button.android{
     color: var(--blue-background);
     background-color: var(--button_white);
 }
+button.android:hover{
+    background-color: var(--button_orange);
+}
+
 button img{
     position: static;
 }
 button span{
     margin-left: 22px;
+}
+button, div.icons img{
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+/* footer */
+
+footer{
+   margin-top: 202px;
+   height: 79px;
+   display: flex;
+   gap: 137px;
+   padding: 0 165px 91px 165px;
+   box-sizing:content-box;
+   justify-content: space-between;
+}
+article.footer_text{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+article.footer_text div{
+    width: 365px;
+}
+article.footer_text div span{
+    font-weight: bold;
+    
+}
+div.icons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+div.icons img{
+    width: 20px;
+    height: 20px;
 }
